@@ -30,17 +30,18 @@ function App() {
   //     price: "$2,499"
   //   }
   // ];
-  //
-  // const stringed = JSON.stringify(tours);
-  // console.log(stringed);
 
-  // my custom hook
+
+  // my custom hook to fetch the tours list from API
   const data = useLoadItems(url);
 
   useEffect(() => {
     setState(data);
   }, [data])
 
+  // if the API isn't functional anymore, uncomment the data 'tours',
+  // and replace "value={state}" below with value={tours}
+  // and comment out the above custom hook and setstate
 
   return (
     <TourContext.Provider value={state}>
