@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F4F4F4;
+}
+
+header {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 80px;
+}
+
+.underline {
+  width: 80px;
+  border-top: 4px solid steelblue;
+  margin: -8px auto;
+  border-radius: 2px;
+}
+
+.tour img {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.tour-list {
+  margin: auto;
+  width: 600px;
+}
+
+.tour {
+  background-color: white;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 1px 1px 10px #aaaaaa;
+  padding-bottom: 25px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  align-items: center;
+}
+
+#pricebox {
+  height: 30px;
+  width: 60px;
+  background-color: rgba(150, 150, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pricetag {
+  color: steelblue;
+  font-weight: 500;
+}
+
+.delete {
+  width: 170px;
+  height: 30px;
+  background-color: white;
+  border: 2px solid #C00000;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #C00000;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.button-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+#reload {
+  width: 120px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: steelblue;
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.inner-container {
+    width: 450px;
+    background-color: white;
+    border-radius: 1%;
+    box-shadow: 1px 1px 15px grey;
+    padding: 25px;
+}

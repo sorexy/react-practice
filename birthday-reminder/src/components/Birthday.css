@@ -1,0 +1,31 @@
+.birthday-entry h2 {
+    font-size: 0.9em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.birthday-entry h3 {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin: 0;
+}
+
+.birthday-entry img {
+    float: left;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.person-info {
+    float: left;
+    margin-left: 15px;
+}
+
+.birthday-entry {
+    display: flex;
+    align-items: center;
+    clear: left;
+    margin-bottom: 10px;
+}
